@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "fe hub synthesizes good scripts for everyone ",
+         Title = "fe hub-synthesizes good scripts for everyone ",
          Animation = "script by shark"
          },
         Key = {
@@ -427,7 +427,7 @@ end)
   AddButton(Tab10o, {
      Name = "sans fe idk",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
+	  loadstring(game:HttpGet('https://gist.githubusercontent.com/lxlc593/d6e5abf3eaca82b1ada2e87dba5bfdad/raw/dca9447cb67d2cdabf816964717b17d8badd8cb0/gistfile1.txt'))()
   end
   })
   
