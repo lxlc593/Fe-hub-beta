@@ -90,8 +90,7 @@ end)
      local Tab6o = MakeTab({Name = "blox fruit"})
      local Tab7o = MakeTab({Name = "kaitun blox fruit"})
      local Tab8o = MakeTab({Name = "script tổng hợp"})
-     local Tab9o = MakeTab({Name = "tthe strongest battlegrounds"})
-     local Tab10o = MakeTab({Name = "scrtpt fe"})
+     local Tab9o = MakeTab({Name = "script fe"})
      
 ------- BUTTON
     
@@ -420,16 +419,9 @@ end)
   })
   
   AddButton(Tab9o, {
-     Name = "aimlock",
+     Name = "script sans fe? idk bro",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
 
-  AddButton(Tab10o, {
-     Name = "sans fe idk",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
-  end
-  })
-  
 end
   })
