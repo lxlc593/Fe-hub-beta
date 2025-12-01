@@ -427,7 +427,7 @@ end)
   AddButton(Tab10o, {
      Name = "sans fe idk",
     Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
   end
   })
   
