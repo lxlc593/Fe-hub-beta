@@ -427,8 +427,6 @@ end)
       Name = "Fredbear",
      Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Error101S/Fast-FredBear/refs/heads/main/Running%20Fredbear"))()
-  end
-  })
 
 end
   })
