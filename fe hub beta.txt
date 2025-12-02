@@ -422,11 +422,6 @@ end)
      Name = "script sans fe? idk bro",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
-  
- AddButton(Tab9o, {
-      Name = "Fredbear",
-     Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Error101S/Fast-FredBear/refs/heads/main/Running%20Fredbear"))()
 
 end
   })
