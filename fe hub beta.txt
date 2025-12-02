@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=77382320383880",
+       Image = "http://www.roblox.com/asset/?id=82552663036988",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
