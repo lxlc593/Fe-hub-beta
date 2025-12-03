@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "fe hub-synthesizes good scripts for everyone ",
+         Title = "fe hub-you gay im not gay mẹo may bé 🗣️",
          Animation = "script by shark"
          },
         Key = {
@@ -82,14 +82,14 @@ RunService.RenderStepped:Connect(function()
 end)
 ------ Tab
      local Tab0o = MakeTab({Name = "NSFW🔞"})
-     local Tab1o = MakeTab({Name = "gow a gader"})
-     local Tab2o = MakeTab({Name = "99 đêm"})
-     local Tab3o = MakeTab({Name = "steal a brainot"})
-     local Tab4o = MakeTab({Name = "plant vs brainot"})
+     local Tab1o = MakeTb({Name = "gow a gader"})
+     local Tab2o = MakeTb({Name = "99 đêm"})
+     local Tab3o = MakeTb({Name = "steal a brainot"})
+     local Tab4o = MakeTb({Name = "plant vs brainot"})
      local Tab5o = MakeTab({Name = "srcipt linh tinh"})
      local Tab6o = MakeTab({Name = "blox fruit"})
      local Tab7o = MakeTab({Name = "kaitun blox fruit"})
-     local Tab8o = MakeTab({Name = "script tổng hợp"})
+     local Tab8o = MakeTb({Name = "script tổng hợp"})
      local Tab9o = MakeTab({Name = "script fe"})
      
 ------- BUTTON
@@ -362,7 +362,7 @@ end)
   })
   
   AddButton(Tab6o, {
-     Name = "HNC HUB",
+     Name = "anhdepzai hub 2023",
     Callback = function()
 	  getgenv().team = "Pirates" --"Marines"
       loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/HNCHubOnTop/refs/heads/main/HNC_Roblox.lua"))()
@@ -422,5 +422,12 @@ end)
      Name = "script sans fe? idk bro",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
+   end
+   })
+
+    AddButton(Tab9o, {
+     Name = "script sans fe? idk bro",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fixed-Kdv3-Modded-by-Theo-51103"))()
    end
    })
