@@ -81,11 +81,7 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 ------ Tab
-     local Tab0o = MakeTab({Name = "NSFW🔞"})
-     local Tab1o = MakeTb({Name = "gow a gader"})
-     local Tab2o = MakeTb({Name = "99 đêm"})
-     local Tab3o = MakeTb({Name = "steal a brainot"})
-     local Tab4o = MakeTb({Name = "plant vs brainot"})
+     local Tab0o = MakeTab({Name = "NSFW🔞"}
      local Tab5o = MakeTab({Name = "srcipt linh tinh"})
      local Tab6o = MakeTab({Name = "blox fruit"})
      local Tab7o = MakeTab({Name = "kaitun blox fruit"})
@@ -115,13 +111,6 @@ end)
   end
   })
   
-  AddButton(Tab6o, {
-     Name = "maru hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Maruvietsub/refs/heads/main/maruhubthinh.txt"))()
-  end
-  })
-  
   AddButton(Tab0o, {
      Name = "roclothes",
     Callback = function()
@@ -129,80 +118,12 @@ end)
   end
   })
   
-  AddButton(Tab6o, {
-     Name = "farm chest",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Farmchest/refs/heads/main/thinhtp.txt"))()
-  end
-  })
   
-  AddButton(Tab6o, {
-     Name = "cat egg đã update",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Categgv6/refs/heads/main/categgv6beta.lua"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "speed hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-  end
-  })
-  
-  AddButton(Tab6o, {
-     Name = "hop sever",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Hopsever/refs/heads/main/categghop.txt"))()
-  end
-  })
-  
-  AddButton(Tab6o, {
-     Name = "banana hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Bananacat/refs/heads/main/testhub.lua"))()
-  end
-  })
-  
-  AddButton(Tab2o, {
-     Name = "foxname- 99 đêm",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
-  end
-  })
-  
-  AddButton(Tab3o, {
-     Name = "ko tên",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tigyiscute/tigystealabrainrotscript/refs/heads/main/TigysScript"))()
-  end
-  })
-  
-  AddButton(Tab4o, {
-     Name = "speed hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-  end
-  })
   
   AddButton(Tab5o, {
      Name = "fly thịnh",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Flythinh/refs/heads/main/Flythinhv1.lua"))()
-  end
-  })
-  
-  AddButton(Tab2o, {
-     Name = "99 đêm thịnh",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/99nigth/refs/heads/main/99nightthinh.lua"))()
-  end
-  })
-  
-  AddButton(Tab5o, {
-     Name = "bất tử",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
   end
   })
   
@@ -277,13 +198,6 @@ end)
   end
   })
   
-  AddButton(Tab2o, {
-     Name = "quantum",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
-  end
-  })
-  
   AddButton(Tab6o, {
      Name = "tboy Roblox",
     Callback = function()
@@ -314,35 +228,12 @@ end)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ngocbonggaming/script/refs/heads/main/NgocBongVn.lua"))()
   end
   })
-  
-  AddButton(Tab2o, {
-     Name = "auto kc 99 đêm",
-    Callback = function()
-	  getgenv().WebhookURL = ""
-      getgenv().AutoFarm = true
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/Farm%20Diamond%20v2.lua"))()
-  end
-  })
-  
+ 
   AddButton(Tab6o, {
      Name = "hiru hub",
     Callback = function()
 	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/ExecuteGames/main/QuestGames.lua"))()
-  end
-  })
-  
-  AddButton(Tab4o, {
-     Name = "saki hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://saki-hub.vercel.app/pvb.lua"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "OMG hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
   end
   })
   
